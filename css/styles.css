@@ -1,16 +1,10 @@
-body{
+body {
     color: white;
     font-family: 'Fira Sans Condensed', sans-serif;
     background-color: black;
 }
 
-header{
-    margin: 0 auto;
-    background-color: #fbbb5c;
-    color: black;
-}
-
-footer{
+footer {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -22,57 +16,15 @@ footer{
     padding-top: 1em;
 }
 
-a{
+a {
     color: #fbbb5c;
     text-decoration: none;
     margin: 1em 1em;
 }
 
 
-.foto:hover{
-    animation: pulse;
-    animation-duration: 0.25s;
-}
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,auto);
-    background-image: url("../src/fondo.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.foto{
-    overflow: hidden;
-}
-
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.texto_1{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.texto_1 *{
-    font-family: 'Berkshire Swash', cursive;
-    font-size:xxx-large;
-    
-    margin: 1em 1em;
-    text-align: center;
-}
-
-.logo{
-    width: 300px;
-    display: flex;
-    margin: 0 auto;
-}
-
-nav{
+nav {
     padding-top: 1em;
     padding-bottom: 1em;
     top: 0;
@@ -81,52 +33,55 @@ nav{
     color: #fbbb5c;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+    z-index: 14;
 }
 
-nav *{
+nav * {
     color: #fbbb5c;
 }
 
-nav * *:hover{
+nav * *:hover {
     color: white;
 }
 
-.texto_3{
-    background-color: #fbbb5c;
-    color: black;
-    text-align: justify;
-    padding: 10% 10%;
+a:hover{
+    color: white;
 }
 
-@media only screen and (max-width:992px){
-    .container{
+
+
+
+
+
+@media only screen and (max-width:992px) {
+    .container {
         grid-template-columns: 1fr;
     }
 
-    footer{
+    footer {
         grid-template-columns: 1fr;
         font-size: small;
     }
 }
 
-@media only screen and (max-width:800px){
-    nav{
+@media only screen and (max-width:800px) {
+    nav {
         position: inherit;
-        font-size: small;
         display: inline;
         text-align: center;
     }
 
-    .texto_3{
+    .texto_3 {
         font-size: smaller;
     }
 
-    .redes{
+    .redes {
         display: none;
     }
+
+    .logo {
+        width: 50%;
+    }
 }
-
-  
-
