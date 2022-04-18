@@ -4,6 +4,10 @@ header {
     color: black;
 }
 
+body *{
+    border: solid 1px red;
+}
+
 
 
 .container {
@@ -49,10 +53,11 @@ header {
     background-color: #fbbb5c;
     color: black;
     text-align: justify;
-    padding: 10% 10%;
+    padding: 5% 5%;
 }
 
-.logo {
+.logo{
     width: 300px;
+    text-align: center;
     margin: 0 auto;
 }

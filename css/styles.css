@@ -81,7 +81,8 @@ a:hover{
         display: none;
     }
 
-    .logo {
+    .logo img{
         width: 50%;
+        text-align: center;
     }
 }
