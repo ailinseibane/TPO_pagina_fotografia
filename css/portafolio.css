@@ -65,4 +65,6 @@ li {
 
 li:hover .info {
     display: block;
+    animation: fadeInUp;
+    animation-duration: 1s;
 }
