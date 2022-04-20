@@ -47,48 +47,61 @@
     <main>
         <div class="container">
             <h1>Contactá con nosotros</h1>
-                <form action="">
-                    <div>
-                        <label for="name">Nombre</label><br>
-                        <input type="text" name="name" id="name" class="text" required>
+            <form action="">
+                <div>
+                    <label for="name">Nombre</label><br>
+                    <input type="text" name="name" id="name" class="text" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label><br>
+                    <input type="text" name="apellido" id="apellido" class="text" required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico</label><br>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="phone">Número de teléfono</label><br>
+                    <input type="tel" name="phone" id="phone" required>
+                </div>
+                <div>
+                    <label for="evento">Tipo de evento</label><br>
+                    <select>
+                        <option value="">Foto de producto</option>
+                        <option value="">Foto de boda</option>
+                        <option value="">Foto new-born</option>
+                        <option value="">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="fecha">Fecha del evento</label><br>
+                    <input type="date" name="fecha" id="">
+                </div>
+                <div>
+                    <label for="localidad">Localidad</label><br>
+                    <input type="text" name="localidad" id="">
+                </div>
+                <div>
+                    <label for="cliente">Ya sos cliente de Firenze?</label><br>
+                    <div class="radio">
+                        <span><input type="radio" name="si" id="">Sí</span>
+                        <span><input type="radio" name="si" id="">No</span>
                     </div>
-                    <div>
-                        <label for="apellido">Apellido</label><br>
-                        <input type="text" name="apellido" id="apellido" class="text" required>
-                    </div>
-                    <div>
-                        <label for="email">Correo electrónico</label><br>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div>
-                        <label for="phone">Número de teléfono</label><br>
-                        <input type="tel" name="phone" id="phone" required>
-                    </div>
-                    <div>
-                        <label for="evento">Tipo de evento</label><br>
-                        <select>
-                            <option value="">Foto de producto</option>
-                            <option value="">Foto de boda</option>
-                            <option value="">Foto new-born</option>
-                            <option value="">Otro</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="fecha">Fecha del evento</label><br>
-                        <input type="date" name="fecha" id="">
-                    </div>
-                    <div>
-                        <label for="localidad">Localidad</label><br>
-                        <input type="text" name="localidad" id="">
-                    </div>
-                    <button class="form-submit">Enviar</button>
+                </div>
+                <button class="form-submit">Enviar</button>
 
 
 
-                </form>
+            </form>
 
-                <h1>O vení a conocer nuestro estudio</h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.6380241831657!2d-58.5658893851446!3d-34.43594858050331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca57a3a05c5c9%3A0xa7f6193af7fc9437!2sRivadavia%201234%2C%20B1646%20FIL%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1650257759557!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h1>O vení a conocer nuestro estudio</h1>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.6380241831657!2d-58.5658893851446!3d-34.43594858050331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca57a3a05c5c9%3A0xa7f6193af7fc9437!2sRivadavia%201234%2C%20B1646%20FIL%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1650257759557!5m2!1ses-419!2sar"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </div>
     </main>
 

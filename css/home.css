@@ -15,7 +15,7 @@ header {
 
 }
 
-.foto{
+.foto {
     width: 100%;
     overflow: hidden;
 }
@@ -52,8 +52,40 @@ header {
     padding: 5% 5%;
 }
 
-.logo{
+.logo {
     width: 300px;
     text-align: center;
     margin: 0 auto;
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    nav {
+        position: inherit;
+        display: inline;
+        text-align: center;
+    }
+
+    .texto_3 {
+        font-size: smaller;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    .logo img {
+        width: 50%;
+        text-align: center;
+    }
 }
