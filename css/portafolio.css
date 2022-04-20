@@ -31,6 +31,7 @@ li img {
     box-shadow: 2px 2px 2px lightgray;
 }
 
+
 h1 {
     color: #fbbb5c;
     grid-column: 1/4;
@@ -86,13 +87,8 @@ li:hover .info {
         display: inline;
         text-align: center;
     }
-    
+
     .redes {
         display: none;
-    }
-
-    .logo img {
-        width: 50%;
-        text-align: center;
     }
 }
