@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <script src="./js/index.js" defer></script>
 
 </head>
 
@@ -47,22 +48,22 @@
     <main>
         <div class="container">
             <h1>Contactá con nosotros</h1>
-            <form action="">
+            <form id="form" action="">
                 <div>
-                    <label for="name">Nombre</label><br>
-                    <input type="text" name="name" id="name" class="text" required>
+                    <label for="name">Nombre y apellido</label><br>
+                    <input type="text" name="name" id="name" class="text">
+
                 </div>
-                <div>
-                    <label for="apellido">Apellido</label><br>
-                    <input type="text" name="apellido" id="apellido" class="text" required>
-                </div>
+             
                 <div>
                     <label for="email">Correo electrónico</label><br>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email">
+
                 </div>
                 <div>
                     <label for="phone">Número de teléfono</label><br>
-                    <input type="tel" name="phone" id="phone" required>
+                    <input type="tel" name="phone" id="phone">
+
                 </div>
                 <div>
                     <label for="evento">Tipo de evento</label><br>
@@ -88,7 +89,11 @@
                         <span><input type="radio" name="si" id="">No</span>
                     </div>
                 </div>
-                <button class="form-submit">Enviar</button>
+
+                <button type="submit" class="form-submit">Enviar</button>
+                <div id="warning" class="warning">
+
+                </div>
 
 
 
