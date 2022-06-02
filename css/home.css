@@ -30,19 +30,24 @@ header {
     animation-duration: 2s;
 }
 
-.texto_1 {
-
+.texto_1, .texto_2{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.texto_1 {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: xxx-large;
-
     margin: 1em 1em;
     text-align: center;
+}
+
+.texto_1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: xxx-large;
+}
+
+.texto_2{
+    font-size: x-large;
+    color: #fbbb5c;
+    text-shadow: 1px;
+    padding: 2em;
 }
 
 .texto_3 {
